@@ -14,9 +14,9 @@ The final solution did not converge while removing gnode,
  so we accept the solution with gnode = 1e-12
 
 
-TRAN Tran1[1] <EE6347_lib:RRAM_PROJ:schematic>   time=(0 s->1 ms)
+TRAN Tran1[1] <EE6347_lib:RRAM_PROJ:schematic>   time=(0 s->2.2 ms)
 
 
 Resource usage:
-  Total stopwatch time     =    49.80 seconds.
+  Total stopwatch time     =    48.43 seconds.
 
