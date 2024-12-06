@@ -1,0 +1,23 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Wed Nov 20 00:56:27 2024
+      Running on host: "Satvik_Malapaka"
+      In Directory: "C:\Users\satvi\EE6347_wrk\data"
+      Process ID: 17528
+
+Processing VAMS source 'C:/Users/satvi/EE6347_wrk/EE6347_lib/%R%R%A%M_midsem/veriloga/veriloga.va'
+ compiled source cache is valid
+Analog module platform compile:
+    [7] amswork.RRAM_midsem (valid object cache, no platform compile required)
+    Analog module design library exists, no link required.
+
+
+TRAN Tran1[1] <EE6347_lib:RRAM_1t1r:schematic>   time=(0 s->900 us)
+
+
+Resource usage:
+  Total stopwatch time     =    23.85 seconds.
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<file name="C:\Users\satvi\EE6347_wrk\EE6347_lib\%Fe%F%E%T\veriloga\veriloga.va">
+    <module name="FeFET">
+        <portList>
+            <port name="vdrain" direction="inout" />
+            <port name="vgate" direction="inout" />
+            <port name="vsource" direction="inout" />
+            <port name="vbody" direction="inout" />
+        </portList>
+        <paramList>
+            <param name="width" type="real" default="((1)*(1e-6))" value_range="from (0:inf)" />
+            <param name="length" type="real" default="((1)*(1e-6))" value_range="from (0:inf)" />
+            <param name="vfb" type="real" default="0" value_range="from ((- inf):inf)" />
+            <param name="tfe" type="real" default="((0.8)*(1e-6))" value_range="from (0:inf)" />
+            <param name="til" type="real" default="((0.1)*(1e-6))" value_range="from (0:inf)" />
+            <param name="na" type="real" default="3e17" value_range="from (0:inf)" />
+            <param name="epiv" type="real" default="8.85e-14" value_range="from (0:inf)" />
+            <param name="epis" type="real" default="11.8" value_range="from (0:inf)" />
+            <param name="epio" type="real" default="3.9" value_range="from (0:inf)" />
+            <param name="a" type="real" default="2.3" value_range="from (0:inf)" />
+            <param name="b" type="real" default="0.4" value_range="from (0:inf)" />
+            <param name="p" type="real" default="0.6775" value_range="from (0:inf)" />
+            <param name="q" type="real" default="0.8115" value_range="from (0:inf)" />
+            <param name="Pr" type="real" default="25" value_range="from (0:inf)" />
+            <param name="tauo" type="real" default="1.9e-8" value_range="from (0:inf)" />
+            <param name="alpha" type="real" default="3.0" value_range="from (0:inf)" />
+            <param name="beta" type="real" default="2" value_range="from (0:inf)" />
+            <param name="epife" type="real" default="28" value_range="from (0:inf)" />
+            <param name="miu" type="real" default="50" value_range="from (0:inf)" />
+            <param name="TIMELIMIT" type="real" default="1e9" value_range="from (0:inf)" />
+            <param name="ndom" type="integer" default="20" value_range="from (0:inf)" />
+            <param name="seed0" type="integer" default="1" value_range="from (0:inf)" />
+        </paramList>
+        <variableList>
+            <variable name="Cox" type="real" />
+            <variable name="E" type="real" />
+            <variable name="Ea" type="real" />
+            <variable name="Pcurr" type="real" />
+            <variable name="Pleft" type="real" />
+            <variable name="Pmid" type="real" />
+            <variable name="St" />
+            <variable name="St_temp" />
+            <variable name="cnt" type="integer" />
+            <variable name="f_Ea" />
+            <variable name="f_distr" />
+            <variable name="flag" type="integer" />
+            <variable name="gamma" type="real" />
+            <variable name="h" />
+            <variable name="hpre" />
+            <variable name="htemp" />
+            <variable name="i" type="integer" />
+            <variable name="ibd" type="real" />
+            <variable name="ibs" type="real" />
+            <variable name="id" type="real" />
+            <variable name="j" type="integer" />
+            <variable name="k" type="real" />
+            <variable name="l" />
+            <variable name="left" type="real" />
+            <variable name="m" type="integer" />
+            <variable name="phid" type="real" />
+            <variable name="phis" type="real" />
+            <variable name="pswi" type="real" />
+            <variable name="qbd" type="real" />
+            <variable name="qbs" type="real" />
+            <variable name="qgb" type="real" />
+            <variable name="qgd" type="real" />
+            <variable name="qgs" type="real" />
+            <variable name="r_Ea" />
+            <variable name="r_voff" />
+            <variable name="right" type="real" />
+            <variable name="seed" type="integer" />
+            <variable name="srand" />
+            <variable name="sum" type="real" />
+            <variable name="taus" />
+            <variable name="time_pre" type="real" />
+            <variable name="vbd" type="real" />
+            <variable name="vbs" type="real" />
+            <variable name="vds" type="real" />
+            <variable name="vfe" type="real" />
+            <variable name="vgb" type="real" />
+            <variable name="vgd" type="real" />
+            <variable name="vgs" type="real" />
+            <variable name="vpre" type="real" />
+            <variable name="vswitch" />
+            <variable name="vswitchlimit" />
+            <variable name="vth" type="real" />
+        </variableList>
+        <structure type="behavioral" />
+    </module>
+</file>

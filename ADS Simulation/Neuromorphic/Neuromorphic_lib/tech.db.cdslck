@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rishi
+HostName                       DESKTOP-5AHVFF8
+ProcessIdentifier              25268
+ProcessCreationTime_UTC        1727415614
+ProcessCreationTime_Readable   Fri Sep 27 11:10:14 2024 India Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\Reading\EE6347 Neuromorphic\ADS\Neuromorphic\Neuromorphic_lib\tech.db.cdslck
+TimeEditLocked                 Fri Sep 27 11:12:06 2024 India Standard Time

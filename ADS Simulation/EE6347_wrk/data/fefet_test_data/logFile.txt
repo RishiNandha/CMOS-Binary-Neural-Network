@@ -1,0 +1,23 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Wed Nov 20 11:11:45 2024
+      Running on host: "Satvik_Malapaka"
+      In Directory: "C:\Users\satvi\EE6347_wrk\data"
+      Process ID: 17580
+
+Processing VAMS source 'C:/Users/satvi/EE6347_wrk/EE6347_lib/%Fe%F%E%T/veriloga/veriloga.va'
+ compiled source cache is valid
+Analog module platform compile:
+    [6] amswork.FeFET (valid object cache, no platform compile required)
+    Analog module design library exists, no link required.
+
+
+TRAN Tran1[1] <EE6347_lib:fefet_test:schematic>   time=(0 s->3 us)
+
+
+Resource usage:
+  Total stopwatch time     =    34.00 seconds.
+

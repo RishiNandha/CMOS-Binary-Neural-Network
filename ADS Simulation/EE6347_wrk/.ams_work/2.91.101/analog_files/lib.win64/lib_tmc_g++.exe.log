@@ -1,0 +1,7 @@
+=============================================================================
+C:\Program Files\Keysight\ADS2019_Update1/tiburonda/tools/mingw64\bin\g++
+Full path: C:\Program Files\Keysight\ADS2019_Update1/tiburonda/tools/mingw64\bin\g++.exe
+ >C:\Program Files\Keysight\ADS2019_Update1/tiburonda/tools/mingw64\bin\g++ -m64 -shared -o D:/Reading/EE6347 Neuromorphic/CMOS Binary Neural Network/CMOS-Binary-Neural-Network/ADS Simulation/EE6347_wrk/.ams_work/2.91.101/analog_files/lib.win64/lib_tmc.dll D:/Reading\EE6347 Neuromorphic\CMOS Binary Neural Network\CMOS-Binary-Neural-Network\ADS Simulation\EE6347_wrk\.ams_work\2.91.101\analog_files\lib.win64\module_RRAM_1.o D:/Reading\EE6347 Neuromorphic\CMOS Binary Neural Network\CMOS-Binary-Neural-Network\ADS Simulation\EE6347_wrk\.ams_work\2.91.101\analog_files\lib.win64\module_RRAM_2.o C:\Program Files\Keysight\ADS2019_Update1\tiburonda/lib.mingw64/libtda_dsl.a C:\Program Files\Keysight\ADS2019_Update1\tiburonda/lib.mingw64/libtda_utils.a C:\Program Files\Keysight\ADS2019_Update1\tiburonda/lib.mingw64/libboost_filesystem-1_53.a C:\Program Files\Keysight\ADS2019_Update1\tiburonda/lib.mingw64/libboost_system-1_53.a
+Modifying environment:
+    added: PATH=C:\Program Files\Keysight\ADS2019_Update1/tiburonda/tools/mingw64/bin;C:\Program Files\Keysight\ADS2019_Update1/tiburonda/tools/mingw64/lib;
+=============================================================================

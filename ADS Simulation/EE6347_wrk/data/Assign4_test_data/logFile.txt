@@ -1,0 +1,31 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Tue Sep 24 10:52:02 2024
+      Running on host: "Satvik_Malapaka"
+      In Directory: "C:\Users\satvi\EE6347_wrk\data"
+      Process ID: 19348
+
+Processing VAMS source 'C:/Users/satvi/EE6347_wrk/EE6347_lib/%Assign_4/veriloga/veriloga.va'
+ compiled source cache is valid
+Analog module platform compile:
+    [3] amswork.RRAM (valid object cache, no platform compile required)
+    Analog module design library exists, no link required.
+
+1 spare nodes and 1 spare devices are removed.
+The details can be found in file 'C:\Users\satvi\EE6347_wrk\data\Assign4_test_data\spare_removal.txt'.
+
+    Matrix is singular (detected at node or branch `X1.Gap').
+    Matrix is singular (detected at node or branch `X1.Gap').
+The final gnode step did NOT converge in 1 iteration(s) with gnode=0.000000e+00
+The solution with gnode=1.000000e-12 will be accepted
+
+
+TRAN Tran1[1] <EE6347_lib:Assign4_test:schematic>   time=(0 s->240 ms)
+
+
+Resource usage:
+  Total stopwatch time     =     8.13 seconds.
+

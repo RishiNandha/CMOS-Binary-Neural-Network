@@ -1,0 +1,10 @@
+(nil
+    spare_node_list(1)
+       (
+            "V_input.net"
+        )
+    spare_inst_list(1)
+       (
+            "V_input.Short1"
+        )
+)

@@ -1,1 +1,1 @@
-{'G_ON': 5.5e-05, 'G_OFF': 2.88e-06, 'V_INV': 1.2, 'R_INV': 2000.0, 'R_INV2': 2000.0, 'V_1': 0.1, 'V_0': -0.1, 'sharpness': 300, 'initial_factor': 0.1, 'h_layer': 8, 'verbose': False, 'monitor': False}
+{'G_ON': 5.5e-05, 'G_OFF': 2.88e-06, 'V_INV': 1.2, 'R_INV': 2000.0, 'R_INV2': 2000.0, 'V_1': 0.1, 'V_0': -0.1, 'sharpness': 100, 'initial_factor': 0.5, 'h_layer': 8, 'verbose': False, 'monitor': False}
