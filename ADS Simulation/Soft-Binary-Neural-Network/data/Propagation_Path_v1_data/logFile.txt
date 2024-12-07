@@ -8,15 +8,15 @@ Analog module platform compile:
     [1] amswork.RRAM (valid object cache, no platform compile required)
     Analog module design library exists, no link required.
 Done with exporting 2 VerilogA device(s).
-    Matrix is singular (detected at node or branch `X1.Gap').
-    Matrix is singular (detected at node or branch `X1.Gap').
+    Matrix is singular (detected between nodes or branches `N__3' and `X1.Gap').
+    Matrix is singular (detected at node or branch `X6.Gap').
 The final solution did not converge while removing gnode,
  so we accept the solution with gnode = 1e-12
 
 
-TRAN Tran1[1] <Soft-Binary-Neural-Network_lib:Propagation_Path_v1:schematic>   time=(0 s->14.8 ms)
+TRAN Tran1[1] <Soft-Binary-Neural-Network_lib:Propagation_Path_v1:schematic>   time=(0 s->3.6 ms)
 
 
 Resource usage:
-  Total stopwatch time     =   112.38 seconds.
+  Total stopwatch time     =   109.09 seconds.
 

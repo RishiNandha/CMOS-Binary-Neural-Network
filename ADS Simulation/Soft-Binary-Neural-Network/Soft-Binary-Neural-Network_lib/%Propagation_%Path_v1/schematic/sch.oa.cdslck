@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      rishi
 HostName                       DESKTOP-5AHVFF8
-ProcessIdentifier              11648
-ProcessCreationTime_UTC        1733560130
-ProcessCreationTime_Readable   Sat Dec  7 13:58:50 2024 India Standard Time
+ProcessIdentifier              23508
+ProcessCreationTime_UTC        1733584499
+ProcessCreationTime_Readable   Sat Dec  7 20:44:59 2024 India Standard Time
 AppIdentifier                  OA File System Design Manager
 OSType                         win32
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         D:\Reading\EE6347 Neuromorphic\CMOS Binary Neural Network\CMOS-Binary-Neural-Network\ADS Simulation\Soft-Binary-Neural-Network\Soft-Binary-Neural-Network_lib\%Propagation_%Path_v1\schematic\sch.oa.cdslck
-TimeEditLocked                 Sat Dec  7 16:46:05 2024 India Standard Time
+FilePathUsedToEditLock         D:\Reading\EE6347 Neuromorphic\CMOS Binary Neural Network\CMOS-Binary-Neural-Network\ADS Simulation\Soft-Binary-Neural-Network\Soft-Binary-Neural-Network_lib\%Propagation_%Path_v1\schematic\sch.oa.cdslck.dirlck
+TimeEditLocked                 Sat Dec  7 20:46:51 2024 India Standard Time
