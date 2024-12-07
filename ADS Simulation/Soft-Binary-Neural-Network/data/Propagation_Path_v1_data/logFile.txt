@@ -18,5 +18,5 @@ TRAN Tran1[1] <Soft-Binary-Neural-Network_lib:Propagation_Path_v1:schematic>   t
 
 
 Resource usage:
-  Total stopwatch time     =   134.67 seconds.
+  Total stopwatch time     =   112.38 seconds.
 

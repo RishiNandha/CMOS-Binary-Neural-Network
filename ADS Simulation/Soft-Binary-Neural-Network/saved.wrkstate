@@ -2,6 +2,7 @@
 <SaveWorkspaceState>
     <Windows>
         <Schematic geom="1,0,2,518,173,1205,666,1920,1080" lib="Soft-Binary-Neural-Network_lib" y1="-8" view="schematic" width="1920" height="1017" x1="-8" cell="Propagation_Path_v1"/>
+        <DDS name="Propagation_Path_v1.dds"/>
     </Windows>
     <MainWindowTab tab="2"/>
 </SaveWorkspaceState>
