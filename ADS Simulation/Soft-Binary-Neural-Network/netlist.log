@@ -1,0 +1,46 @@
+; Top Design: "EE6347_lib:Gates_test:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="EE6347_lib:Gates_test:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: Soft-Binary-Neural-Network_lib
+; Cell Name: Pass_Gates_v1
+; View Name: schematic
+define Pass_Gates_v1 ( 1  2  3  CTRL ) 
+;parameters 
+"SWITCHVM1":SWITCHV1  1 2 CTRL N__6 R1=1.0 Ohm V1=0.0 V R2=1.0 MOhm V2=1.0 V 
+"SWITCHVM1":SWITCHV2  1 3 N__6 CTRL R1=1.0 Ohm V1=0.0 V R2=1.0 MOhm V2=1.0 V 
+V_Source:SRC1  N__6 0 Type="V_DC" Vdc=0.5 V SaveCurrent=1 
+end Pass_Gates_v1
+
+Pass_Gates_v1:X1  N__1 N__0 N__3 N__2 
+V_Source:SRC1  N__4 0 Type="V_DC" Vdc=1.0 V SaveCurrent=1 
+R:R1  N__4 N__1 R=13000 Ohm Temp=DefaultRTemp 
+R:R2  N__0 0 R=20 Ohm Temp=DefaultRTemp 
+R:R3  N__3 0 R=20 Ohm Temp=DefaultRTemp 
+V_Source:SRC2  N__2 0 Type="VtStep" V_Tran=pulse(time, 0 V, 1.2 V, 10 nsec, 1 nsec) SaveCurrent=1 
+Tran:Tran1 StartTime=0.0 nsec StopTime=20 nsec MaxTimeStep=0.01 nsec LimitStepForTL=yes TimeStepControl=2 TruncTol=7.0 ChargeTol=1.0e-14 IntegMethod=0 MaxGearOrder=2 \
+Mu=0.5 MaxOrder=4 Freq[1]=1.0 GHz Order[1]=3 HB_Window=no \
+HB_Sol=no ImpApprox=no ShortTL_Delay=1.0 psec ImpMode=1 UseInitCond=no \
+LoadGminDC=no CheckKCL=yes CheckOnlyDeltaV=yes OverloadAlert=no DeviceBypass=no \
+MaxIters=10 MaxItersDC=200 DevOpPtLevel=0 StatusLevel=2 OutputAllPoints=yes \
+NoiseScale=1 ImpEnforcePassivity=yes \
+OutputPlan="Tran1_Output" 
+
+OutputPlan:Tran1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+

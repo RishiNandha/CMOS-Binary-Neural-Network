@@ -1,8 +1,8 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <Schematic geom="1,0,3,735,183,1205,666,1920,1080" cell="RRAM_PROJ" view="schematic" height="1017" lib="EE6347_lib" y1="-8" x1="-8" width="1920"/>
-        <Schematic geom="1,0,2,755,203,1205,666,1920,1080" cell="rram_test" view="schematic" height="1017" lib="EE6347_lib" y1="-8" x1="-8" width="1920"/>
+        <Schematic geom="1,0,0,510,142,1205,666,1920,1080" lib="EE6347_lib" y1="142" view="schematic" width="1205" height="666" x1="510" cell="RRAM_PROJ"/>
+        <DDS name="RRAM_PROJ.dds"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

@@ -1,0 +1,6 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE Soft#2dBinary#2dNeural#2dNetwork_lib Soft-Binary-Neural-Network_lib
+ASSIGN Soft#2dBinary#2dNeural#2dNetwork_lib libMode shared
+INCLUDE ../Neuromorphic/lib.defs
+INCLUDE ../EE6347_wrk/lib.defs
