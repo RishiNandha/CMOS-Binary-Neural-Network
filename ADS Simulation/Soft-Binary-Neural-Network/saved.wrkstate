@@ -1,8 +1,5 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows>
-        <Schematic width="1920" view="schematic" cell="Multilayer_Perceptron_v1" y1="-8" height="1017" lib="Soft-Binary-Neural-Network_lib" geom="1,0,2,518,173,1205,666,1920,1080" x1="-8"/>
-        <DDS name="Multilayer_Perceptron_v1.dds"/>
-    </Windows>
+    <Windows/>
     <MainWindowTab tab="2"/>
 </SaveWorkspaceState>
