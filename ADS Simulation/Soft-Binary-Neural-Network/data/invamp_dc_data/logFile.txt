@@ -1,0 +1,12 @@
+
+hpeesofsim (*) 491.update1.0 Mar 16 2019, MINT version 4
+    (64-bit windows built: Sat Mar 16, 2019 19:44:49 +0000)
+
+
+
+TRAN Tran1[1] <Neuromorphic_lib:invamp_dc:schematic>   time=(0 s->10 us)
+
+
+Resource usage:
+  Total stopwatch time     =    49.87 seconds.
+

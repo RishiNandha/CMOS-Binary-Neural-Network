@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="9" Version="100">
+<ADSWorkspace Revision="11" Version="100">
     <Workspace Name="">
         <Library Name="ads_standard_layers_ic" />
         <Library Name="ads_schematic_layers_ic" />
@@ -56,7 +56,7 @@
             <Cell Name="Soft-Binary-Neural-Network_lib:Inv_Amp_v1" />
             <Cell Name="Soft-Binary-Neural-Network_lib:rram_v1" />
             <Cell Name="Soft-Binary-Neural-Network_lib:4x4Arr_v1" />
-            <Cell Name="Soft-Binary-Neural-Network_lib:16x8x4_Training_v1" />
+            <Cell Name="Soft-Binary-Neural-Network_lib:16x8x4_Arrays_v1" />
         </Library>
         <Preferences Name="layout.prf" />
         <Preferences Name="schematic.prf" />
@@ -84,6 +84,11 @@
         <Cell Name="EE6347_lib:Gates_test" />
         <Log Name="netlist.log" />
         <Cell Name="Soft-Binary-Neural-Network_lib:2x1_Anal_MUX_v1" />
-        <Cell Name="Soft-Binary-Neural-Network_lib:RRAM_PROJ_v1" />
+        <Data_Display Name="Propagation_Path_v1.dds" />
+        <Dataset Name="Propagation_Path_v1.ds" />
+        <Preferences Name="Soft-Binary-Neural-Network_lib_lay.prf" />
+        <ConfigFile Name="dds.cfg" />
+        <Cell Name="Soft-Binary-Neural-Network_lib:16x8x4_Arrays_v1" />
+        <Cell Name="Soft-Binary-Neural-Network_lib:Multilayer_Perceptron_v1" />
     </Workspace>
 </ADSWorkspace>
